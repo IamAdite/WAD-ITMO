@@ -13,4 +13,7 @@ def page_not_found(e):
 
 @app.route('/profile')
 def hello_world():
-    return render_template('index.html')
+    name="Pavel"
+    fullName="Pavel Ogoreltsev"
+    group="N4154c"
+    return render_template('index.html', name=name, group=group, fullName=fullName)
