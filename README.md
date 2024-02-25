@@ -1,5 +1,6 @@
 # WAD-ITMO
 This repository dedicated entirely for Web-Apps Development course in ITMO uni.
 
-In the first assignment, I made basic backend with redirection onf default route to /profiles route and basic frontend with one index.html file and css file.
-In the css file I changed colors of headers I alsoadded some information about myself with a picture of mr.fresh in index.html.
+In the second assignment, I made basic Login/Signup system with 2 pages. On the first you can either signup with a new email or login to the existing profile. And the second page is a profile page with some personal info and a silly cat. As a DB mongoDB was used in docker container that can be launched from docker-compose file.
+
+While creatin those simple pages i used pymongo to connect to mongodb, passlib library to hash passwords and verify inserted password and some other flask functionality like session, request, jsonify. I also added small JS scripts to "parse" imputed values in frontend to backend.
